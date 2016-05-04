@@ -123,7 +123,7 @@ function clcdt_register_components( $components ) {
 
 		// Translateable strings used in the component controls
 		'i18n' =>  array(
-			'posts_loading' => esc_html__( 'Loading', 'clc-demo-theme' ),
+			'posts_loading'       => esc_html__( 'Loading', 'clc-demo-theme' ),
 			'posts_remove_button' => esc_html__( 'Remove', 'clc-demo-theme' ),
 			'placeholder'         => esc_html__( 'No post selected.', 'clc-demo-theme' ),
 			'posts_add_button'    => esc_html__( 'Add Post', 'clc-demo-theme' ),
