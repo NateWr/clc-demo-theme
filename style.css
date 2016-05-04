@@ -1,0 +1,106 @@
+/**
+ * Theme Name:  Content Layout Control Demo Theme
+ * Theme URI:   https://github.com/NateWr/clc-demo-theme
+ * Description: A theme which demonstrates how to integrate and extend the content-layout-control framework at github.com/NateWr/content-layout-control.
+ * Version:     1.0
+ * Author:      NateWr
+ * Author URI:  https://github.com/NateWr
+ * License:     GNU General Public License v2.0 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+/**
+ * Layout for all components
+ */
+.clc-component-layout {
+	padding: 2em;
+	border-bottom: 1px solid #ddd;
+}
+
+.clc-component-layout:before,
+.clc-component-layout:after {
+	content: ' ';
+	display: table;
+}
+
+.clc-component-layout:after {
+	clear:both;
+}
+
+.clc-component-layout:last-child {
+	border-bottom: none;
+}
+
+/**
+ * Layout for content block component
+ */
+.clc-component-content-block .links {
+	margin: 1em 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+.clc-component-content-block .links li {
+	display: inline-block;
+}
+
+
+.clc-component-content-block .links a {
+	display: inline-block;
+	padding: 0.5em 1em;
+	border: 1px solid blue;
+	border-radius: 0.5em;
+	font-size: .85em;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+.clc-component-content-block .links a:hover,
+.clc-component-content-block .links a:focus {
+	background: blue;
+	color: #fff;
+}
+
+.clc-component-content-block .image-position-left .image,
+.clc-component-content-block .image-position-right .image,
+.clc-component-content-block .image-position-left .text,
+.clc-component-content-block .image-position-right .text {
+	width: 50%;
+}
+
+.clc-component-content-block .image-position-left .image,
+.clc-component-content-block .image-position-right .text {
+	float: left;
+}
+
+.clc-component-content-block .image-position-left .text,
+.clc-component-content-block .image-position-right .image {
+	float: right;
+}
+
+.clc-component-content-block .image img {
+	display: block;
+	width: auto;
+	height: auto;
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+/**
+ * The following CSS code is just a bit of scaffolding for the theme. It'snot
+ * required for content-layout-control
+ */
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+header,
+footer {
+	background: #555;
+	color: rgba(255,255,255,0.8);
+	text-align: center;
+	padding: 1em;
+}
