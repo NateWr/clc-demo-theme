@@ -12,7 +12,7 @@
  *
  * @package    clc-demo-theme
  * @subpackage Functions
- * @version    0.0.1
+ * @version    0.1.0
  * @author     Nate Wright <https://github.com/NateWr>
  * @copyright  Copyright (c) 2015, Theme of the Crop
  * @link      https://github.com/NateWr/clc-demo-theme
@@ -22,7 +22,7 @@
 /**
  * Set up the theme
  *
- * @since 0.0.1
+ * @since 0.1.0
  */
 function clcdt_setup_theme() {
 
@@ -61,7 +61,7 @@ add_action( 'after_setup_theme', 'clcdt_setup_theme' );
  * Load the components you'd like to use with this theme
  *
  * @param array Components already registered
- * @since 0.0.1
+ * @since 0.1.0
  */
 function clcdt_register_components( $components ) {
 
@@ -137,7 +137,7 @@ function clcdt_register_components( $components ) {
 /**
  * Register our content-layout-control with the customizer
  *
- * @since 0.0.1
+ * @since 0.1.0
  */
 function clcdt_customize_register( $wp_customize ) {
 
