@@ -4,6 +4,8 @@ This theme demonstrates how to integrate the [content-layout-control](https://gi
 
 So far it only demonstrates a very basic integration, using the two components provided by default.
 
+To check it out, open any Page in the Customizer and look for the **Content Layout Control** section.
+
 Plans:
 
 - Add a custom component
