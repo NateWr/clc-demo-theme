@@ -4,9 +4,20 @@ This theme demonstrates how to integrate the [content-layout-control](https://gi
 
 So far it only demonstrates a very basic integration, using the two components provided by default.
 
-To check it out, open any Page in the Customizer and look for the **Content Layout Control** section.
+## Install
 
-Plans:
+The simple way is to download the [latest release package](https://github.com/NateWr/clc-demo-theme/releases) and install it as you would any other theme. Once activated, open any Page in the Customizer and look for the **Content Layout Control** section.
+
+If you want to build from source:
+
+```
+git clone --recursive https://github.com/NateWr/clc-demo-theme.git
+cd clc-demo-theme/lib/content-layout-control
+npm install
+grunt build
+```
+
+## Plans
 
 - Add a custom component
 - Extend a component
